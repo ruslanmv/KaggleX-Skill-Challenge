@@ -1,0 +1,55 @@
+Machine Learning Problem Information:
+
+This file contains information about the machine learning problem, including data description, data types, missing values, unique values, categorical and numerical columns, and class distribution (if applicable).
+
+Data Description:
+Number of rows: 54273
+Number of columns: 13
+Data Types:
+id               int64
+brand           object
+model           object
+model_year       int64
+milage           int64
+fuel_type       object
+engine          object
+transmission    object
+ext_col         object
+int_col         object
+accident        object
+clean_title     object
+price            int64
+dtype: object
+Missing Values:
+id              0
+brand           0
+model           0
+model_year      0
+milage          0
+fuel_type       0
+engine          0
+transmission    0
+ext_col         0
+int_col         0
+accident        0
+clean_title     0
+price           0
+dtype: int64
+Unique Values in Each Column:
+Column: id, Unique Values: 54273
+Column: brand, Unique Values: 53
+Column: model, Unique Values: 1827
+Column: model_year, Unique Values: 34
+Column: milage, Unique Values: 3212
+Column: fuel_type, Unique Values: 7
+Column: engine, Unique Values: 1061
+Column: transmission, Unique Values: 46
+Column: ext_col, Unique Values: 260
+Column: int_col, Unique Values: 124
+Column: accident, Unique Values: 2
+Column: clean_title, Unique Values: 1
+Column: price, Unique Values: 1481
+Categorical Columns:
+['brand', 'model', 'fuel_type', 'engine', 'transmission', 'ext_col', 'int_col', 'accident', 'clean_title']
+Numerical Columns:
+['id', 'model_year', 'milage', 'price']

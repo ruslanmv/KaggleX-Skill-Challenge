@@ -1,0 +1,80 @@
+{
+    "Machine Learning Problem Information": "This file contains information about the machine learning problem, including data description, data types, missing values, unique values, categorical and numerical columns, and class distribution (if applicable).",
+    "Data Description": {
+        "number_of_rows": 54273,
+        "number_of_columns": 13
+    },
+    "Data Types": "This section describes the data types for each column.",
+    "types": {
+        "id": "int64",
+        "brand": "object",
+        "model": "object",
+        "model_year": "int64",
+        "milage": "int64",
+        "fuel_type": "object",
+        "engine": "object",
+        "transmission": "object",
+        "ext_col": "object",
+        "int_col": "object",
+        "accident": "object",
+        "clean_title": "object",
+        "price": "int64"
+    },
+    "Missing Values": "This section describes the number of missing values in each column.",
+    "counts": {
+        "id": 0,
+        "brand": 0,
+        "model": 0,
+        "model_year": 0,
+        "milage": 0,
+        "fuel_type": 0,
+        "engine": 0,
+        "transmission": 0,
+        "ext_col": 0,
+        "int_col": 0,
+        "accident": 0,
+        "clean_title": 0,
+        "price": 0
+    },
+    "Unique Values in Each Column": {
+        "Unique Values in Each Column": "This section describes the number of unique values in each column.",
+        "counts": {
+            "id": 54273,
+            "brand": 53,
+            "model": 1827,
+            "model_year": 34,
+            "milage": 3212,
+            "fuel_type": 7,
+            "engine": 1061,
+            "transmission": 46,
+            "ext_col": 260,
+            "int_col": 124,
+            "accident": 2,
+            "clean_title": 1,
+            "price": 1481
+        }
+    },
+    "Categorical Columns": {
+        "Categorical Columns": "This section lists the categorical columns in the dataset.",
+        "columns": [
+            "brand",
+            "model",
+            "fuel_type",
+            "engine",
+            "transmission",
+            "ext_col",
+            "int_col",
+            "accident",
+            "clean_title"
+        ]
+    },
+    "Numerical Columns": {
+        "Numerical Columns": "This section lists the numerical columns in the dataset.",
+        "columns": [
+            "id",
+            "model_year",
+            "milage",
+            "price"
+        ]
+    }
+}

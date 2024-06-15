@@ -1,0 +1,141 @@
+{
+    "problem_type": "regression",
+    "specific_metric_importance": "Mean Squared Error (MSE) is the most important metric",
+    "important_features": [
+        "id",
+        "model_year",
+        "milage",
+        "price"
+    ],
+    "missing_value_strategy": "no missing values, no strategy needed",
+    "data_distribution_assumptions": "non-normality assumed due to categorical features",
+    "desired_outcome": "predict the continuous target variable with high accuracy",
+    "target_variable": "price",
+    "target_data_type": "int64",
+    "evaluation_metrics": {
+        "Evaluation Metrics": [
+            "Mean Squared Error (MSE)",
+            "Mean Absolute Error (MAE)",
+            "R-Squared",
+            "Root Mean Squared Error (RMSE)"
+        ],
+        "Target Variable": "price",
+        "Data Type": "int64"
+    },
+    "num_rows": 54273,
+    "num_cols": 13,
+    "data_types": {
+        "id": "int64",
+        "brand": "object",
+        "model": "object",
+        "model_year": "int64",
+        "milage": "int64",
+        "fuel_type": "object",
+        "engine": "object",
+        "transmission": "object",
+        "ext_col": "object",
+        "int_col": "object",
+        "accident": "object",
+        "clean_title": "object",
+        "price": "int64"
+    },
+    "missing_values": {
+        "id": 0,
+        "brand": 0,
+        "model": 0,
+        "model_year": 0,
+        "milage": 0,
+        "fuel_type": 0,
+        "engine": 0,
+        "transmission": 0,
+        "ext_col": 0,
+        "int_col": 0,
+        "accident": 0,
+        "clean_title": 0,
+        "price": 0
+    },
+    "unique_values": {
+        "Unique Values in Each Column": "This section describes the number of unique values in each column.",
+        "counts": {
+            "id": 54273,
+            "brand": 53,
+            "model": 1827,
+            "model_year": 34,
+            "milage": 3212,
+            "fuel_type": 7,
+            "engine": 1061,
+            "transmission": 46,
+            "ext_col": 260,
+            "int_col": 124,
+            "accident": 2,
+            "clean_title": 1,
+            "price": 1481
+        }
+    },
+    "categorical_cols": [
+        "brand",
+        "model",
+        "fuel_type",
+        "engine",
+        "transmission",
+        "ext_col",
+        "int_col",
+        "accident",
+        "clean_title"
+    ],
+    "numerical_cols": [
+        "id",
+        "model_year",
+        "milage",
+        "price"
+    ],
+    "info": {
+        "Data Description": {
+            "number_of_rows": 54273,
+            "number_of_columns": 13
+        },
+        "Data Types": "This section describes the data types for each column.",
+        "Missing Values": "This section describes the number of missing values in each column.",
+        "Unique Values in Each Column": {
+            "Unique Values in Each Column": "This section describes the number of unique values in each column.",
+            "counts": {
+                "id": 54273,
+                "brand": 53,
+                "model": 1827,
+                "model_year": 34,
+                "milage": 3212,
+                "fuel_type": 7,
+                "engine": 1061,
+                "transmission": 46,
+                "ext_col": 260,
+                "int_col": 124,
+                "accident": 2,
+                "clean_title": 1,
+                "price": 1481
+            }
+        },
+        "Categorical Columns": {
+            "Categorical Columns": "This section lists the categorical columns in the dataset.",
+            "columns": [
+                "brand",
+                "model",
+                "fuel_type",
+                "engine",
+                "transmission",
+                "ext_col",
+                "int_col",
+                "accident",
+                "clean_title"
+            ]
+        },
+        "Numerical Columns": {
+            "Numerical Columns": "This section lists the numerical columns in the dataset.",
+            "columns": [
+                "id",
+                "model_year",
+                "milage",
+                "price"
+            ]
+        }
+    }
+}

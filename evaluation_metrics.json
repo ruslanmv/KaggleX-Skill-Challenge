@@ -1,0 +1,10 @@
+{
+    "Evaluation Metrics": [
+        "Mean Squared Error (MSE)",
+        "Mean Absolute Error (MAE)",
+        "R-Squared",
+        "Root Mean Squared Error (RMSE)"
+    ],
+    "Target Variable": "price",
+    "Data Type": "int64"
+}
